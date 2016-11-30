@@ -1,7 +1,9 @@
 /* 
 	The following is an extremely basic example of a solidity contract. 
 	It takes a string upon creation and then repeats it when greet() is called.
+	An ?updated? version of the Greeter is here https://www.ethereum.org/greeter
 */
+pragma solidity ^0.4.2;
 
 contract Greeter         // The contract definition. A constructor of the same name will be automatically called on contract creation. 
 {
